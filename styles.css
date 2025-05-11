@@ -1,0 +1,46 @@
+.but {
+    background-color: white;
+    color: d64933;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.display {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.container {
+    background-color: #003776;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2 4 4 #000000;
+}
+
+.subcont {
+    display: flex;
+    gap: 8px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, lightgrey, white);
+}
